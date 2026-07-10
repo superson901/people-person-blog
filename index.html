@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+
+
+<head>
+<meta charset="utf-8" />
+
+<link href="Untitled-1.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+    Hello this is the people person blog and my place for cool people.
+</h1>
+
+
+<nav>
+    <ul>
+        <li><a href="something.html" title="View the campaign schedule">Schedule</a></li>
+        <li><a href="bio.html" title="View our biography">Bio</a></li>
+        <li><a href="feedback.html" title="give us feedback">Feedback</a></li>
+
+    </ul>
+</nav>
+
+
+<section>
+    <p> im new to this so i want to ask some questions</p>
+</section>
+
+<section class="music">
+    <h2>My Playlist</h2>
+
+    <iframe 
+    class="spotify"
+    src="https://open.spotify.com/embed/playlist/4NMysfl9IMNitgmiky9MDZ?utm_source=generator&theme=0&si=423537077ace4d55">
+    </iframe>
+</section>
+
+
+
+    <div class="formRow">
+        <label for="Spin">How many times can you stab someone without getting caught?</label>
+        <input name="Out" id="Spin" type="number" 
+        value="1" step="1" min="0" max="20" />
+    </div>
+    
+
+
+    <div class="formRow">
+
+
+
+
+
+
+        <label for="rangeBox">Rate the overall service<br />
+               (0=poor; 10=great)</label>
+         0
+        <input name="serviceRate" id="rangeBox" type="range"
+               value="5" step="1" min="0" max="10" />
+        10
+        <p>Your rating: <span id="ratingValue">5</span></p>
+
+        <script>
+
+let slider = document.getElementById("rangeBox");
+let output = document.getElementById("ratingValue");
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
+</script>
+    </div>
+
+
+    <div id="buttons">
+            <input type="submit" value="Submit my survey" />
+            <input type="reset" value="Cancel" />
+        </div>
+</div>
+</body>
+
+
+
+
+
+

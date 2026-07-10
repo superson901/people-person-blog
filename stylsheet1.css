@@ -1,0 +1,112 @@
+/*
+  css stylsheet v1
+
+ 
+   creator: Azariel Gaspar
+   Date:   3/4/2025
+
+   Filename: Untitled-1.css 
+   
+   
+*/
+section{
+    background:lightgrey;
+    padding:20px;
+    margin:30px 0;
+
+    border:3px solid #222;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,.25);
+}
+
+h1{
+  font-size:1.9em;
+  margin: 15px;
+
+}
+
+body {
+    background: lightblue;
+}
+
+
+div#buttons {
+  text-align:center;
+  width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 15px;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+nav ul li a:hover {
+	background-color: #e11d1d;
+	color: white;
+}
+
+
+
+
+.container{
+    width:80%;
+    max-width:1000px;
+    margin:auto;
+}
+
+
+h2{
+	color: white;
+}
+ 
+
+
+.music {
+    background:#222;
+    padding:20px;
+    margin:30px 0;
+    border-radius:15px;
+    border:2px solid black;
+}
+
+.spotify {
+    width:400px;
+    height:352px;
+}
+
+
+
+
+
+
+
+
+
