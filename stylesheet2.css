@@ -5,7 +5,7 @@
    creator: Azariel Gaspar
    Date:   3/4/2025
 
-   Filename: stylesheet1.css 
+   Filename: stylesheet2.css 
    
    
 */
@@ -26,7 +26,10 @@ section{
 
 
 
-
+div#buttons {
+  text-align:center;
+  width: 100%;
+}
 
 h1{
   font-size:1.9em;
