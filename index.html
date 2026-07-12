@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body class="page">
 
 <div class="container">
 
@@ -56,22 +56,10 @@
     <div class="formRow">
         <label for="Spin">pick a number!</label>
         <input name="Out" id="Spin" type="number" 
-        value="1" step="1" min="0" max="20" />
+        value="1" step="1" min="1" max="20" />
     </div>
-   <script>
-
-let slider = document.getElementById("rangeBox");
-let output = document.getElementById("ratingValue");
-
-slider.oninput = function() {
-    output.innerHTML = this.value;
-}
-
-
-</script> 
-
-
-
+  
+<script src="script.js"></script>
 
 </div>
 </body>

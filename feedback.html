@@ -40,7 +40,18 @@
         10
         <p>Your rating: <span id="ratingValue">5</span></p>
 
-        
+         <script>
+
+let slider = document.getElementById("rangeBox");
+let output = document.getElementById("ratingValue");
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
+
+</script> 
+
     </div>
 
 
