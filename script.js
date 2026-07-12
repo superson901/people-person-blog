@@ -22,7 +22,9 @@ let colors = {
 };
 
 let numberPicker = document.getElementById("Spin");
-let currentColor = "";
+let currentColor = localStorage.getItem("savedColor") || "";
+if(numberPicker){
+
 numberPicker.onchange = function(){
 
     let chosenColor = colors[this.value];
@@ -35,5 +37,14 @@ numberPicker.onchange = function(){
 
     currentColor = chosenColor;
 
+localStorage.setItem("savedColor", chosenColor);
 
+}
+}
+
+
+let savedColor = localStorage.getItem("savedColor");
+
+if(savedColor){
+    document.body.classList.add(savedColor);
 }
