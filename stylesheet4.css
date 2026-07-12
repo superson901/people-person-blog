@@ -9,3 +9,96 @@
    
    
 */
+
+section{
+    background:lightgrey;
+    padding:20px;
+    margin:30px 0;
+
+    border:3px solid #222;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,.25);
+}
+
+
+
+
+div#buttons {
+  text-align:center;
+  width: 100%;
+}
+
+h1{
+  font-size:1.9em;
+  margin: 15px;
+
+}
+
+body {
+    background: lightblue;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+nav ul li a:hover {
+	background-color: #e11d1d;
+	color: white;
+}
+
+
+
+.container{
+    width:80%;
+    max-width:1000px;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
