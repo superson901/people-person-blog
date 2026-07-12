@@ -58,7 +58,20 @@
         <input name="Out" id="Spin" type="number" 
         value="1" step="1" min="0" max="20" />
     </div>
-    
+   <script>
+
+let slider = document.getElementById("rangeBox");
+let output = document.getElementById("ratingValue");
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}
+
+
+</script> 
+
+
+
 
 </div>
 </body>
