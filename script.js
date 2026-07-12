@@ -17,7 +17,7 @@ let colors = {
     16: "darkcyan",
     17: "darkkhaki",
     18: "khaki",
-    19: "antiquewhites",
+    19: "antiquewhite",
     20: "white"
 };
 

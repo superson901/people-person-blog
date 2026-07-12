@@ -26,6 +26,9 @@ h1{
   margin: 15px;
 
 }
+.page {
+    background-color: lightblue;
+}
 
 .blue {
   background-color: blue;
@@ -84,7 +87,7 @@ h1{
 .khaki {
 background-color: khaki;
 }
-.antiquewhites {
+.antiquewhite {
   background-color: antiquewhite;
 }
 .white {
@@ -111,9 +114,6 @@ background-color: khaki;
 
 
 
-.page {
-    background-color: lightblue;
-}
 
 
 div#buttons {
